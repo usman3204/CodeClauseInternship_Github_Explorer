@@ -1,0 +1,111 @@
+/* githubexp.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+}
+
+.head {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f; /* Darker background for header */
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color */
+}
+
+.head h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.card {
+    background-color: #1f1f1f; /* Dark background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.card img.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.userinfo {
+    margin: 20px 0;
+}
+
+.userinfo h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.userinfo p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.info {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info li {
+    font-size: 1em;
+}
+
+.repos {
+    margin: 20px 0;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.repos a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333; /* Dark background for links */
+    border-radius: 5px;
+    text-decoration: none;
+    color: #e0e0e0; /* Light text color */
+    transition: background-color 0.3s;
+}
+
+.repos a:hover {
+    background-color: #444; /* Slightly lighter on hover */
+}
